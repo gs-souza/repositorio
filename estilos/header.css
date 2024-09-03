@@ -38,3 +38,23 @@ texto-desktop, .texto-tablet{
     .texto_desktop, .texto-mobile{
         display;none;}
 }
+@media screen and(min-width:1728){
+    >container_frase{
+        font-size: 50px;
+        display: inline-block;
+    }
+.container_frase{
+    font-weight: 400;
+    padding-left; 5em;
+}    
+.texto_desktop{
+    display: block;
+    font-size: 90px;
+    color:var(--lilas)
+    margin-top: 3m;
+    padding: 1em;
+}
+.texto-tablet, .texto-mobile{
+    display: none;
+}
+}
